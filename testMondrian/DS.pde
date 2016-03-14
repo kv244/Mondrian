@@ -20,8 +20,7 @@ class DS{
   }
    
   public rectData removeOldest(){
-    println(currSize);
+    //println(currSize);
     return (rectData)ds.remove();
-  }
-  
+  } 
 }

@@ -5,16 +5,7 @@ class rectData{
   public int rWidth;
   public color rCol;
   private RECTYPE type; 
-  
-  
- // TODO do i even need this?
-  private rectData(int a, int b, int c, int d, color e){
-     this.rx = a;
-     this.ry = b;
-     this.rHeight = c;
-     this.rWidth = d;
-     this.rCol = e;
-  }
+
   
   // TODO needs tweaking
   private void colorize(){
@@ -76,7 +67,6 @@ class rectData{
       }
     }   
   }
-  
   
   // "rough" remove of background color of shapeX
   public void removeRect(int rough){
